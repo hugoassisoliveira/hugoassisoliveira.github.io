@@ -59,8 +59,17 @@
 }
 
 #bio-container p{
-    text-align: left;
     margin-bottom: 20px;
+    text-align: left;
+    max-width: 320px;
+    line-height: 1.5;
+
+    hyphens: auto;
+    -webkit-hyphens: auto;
+    -ms-hyphens: auto;
+
+    overflow-wrap: break-word;
+    word-wrap: break-word;
 }
 
 #bio-container #welcome-text{
