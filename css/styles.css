@@ -72,6 +72,13 @@
     word-wrap: break-word;
 }
 
+.ultimo_parag{
+    text-align: center;
+    margin-top: 30px;
+    font-size: 0.95rem;
+    opacity: 0.85;
+}
+
 #bio-container #welcome-text{
     font-weight: bold;
 }
