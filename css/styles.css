@@ -197,6 +197,12 @@
     flex: 1 1 33%;
     max-width: 33%;
     margin-bottom: 35px;
+    border: 1px solid var(--border-color);
+    border-radius: 12px;
+    padding: 20px;
+    text-align: left;
+    transition: transform 0.2s ease, box-shadow 0.2s ease;
+    background-color: #fff;
 }
 
 .skills-title{
