@@ -20,9 +20,9 @@
     --main-color: #54b689;
     --main-text-color: #FFF;
     --border-color: #999;
-    --bio-bg-color: #1E2A3A;
+    --bio-bg-color: #1a1d27;
     --bio-border-color: #111821;
-    --about-bg-color: #111821;
+    --about-bg-color: #141820;
 }
 
 /* Estilo geral */
@@ -72,7 +72,7 @@
     word-wrap: break-word;
 }
 
-.ultimo_parag{
+#bio-container p.ultimo_parag{
     text-align: center;
     margin-top: 30px;
     font-size: 0.95rem;
@@ -195,14 +195,15 @@
 
 .skills-box{
     flex: 1 1 33%;
-    max-width: 33%;
-    margin-bottom: 35px;
-    border: 1px solid var(--border-color);
+    max-width: 40%;
+    margin: 35px;
+    margin-right: 10px;
+    margin-bottom: 10px;
     border-radius: 12px;
     padding: 20px;
     text-align: left;
     transition: transform 0.2s ease, box-shadow 0.2s ease;
-    background-color: #fff;
+    background-color: #191d26;
 }
 
 .skills-title{
