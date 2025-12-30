@@ -45,6 +45,7 @@
     text-align: center;
     padding: 30px 12px;
     border-right: 5px solid var(--bio-border-color);
+    position: relative;
 }
 
 #about-container{
@@ -112,6 +113,9 @@
 #email-container{
     display: flex;
     justify-content: center;
+    position: absolute;
+    bottom: 40px;
+    left: 40px;
 }
 
 #email-container ion-icon,
@@ -130,6 +134,7 @@
     font-size: 20px;
     margin-right: 5px;
     max-width: 20px;
+
 }
 
 /* About Container */
@@ -217,6 +222,17 @@
 .skills-box i{
     font-size: 45px;
     margin-right: 10px;
+}
+
+.habilidade{
+    margin-bottom: 10px;
+    position: relative;
+}
+
+p.hab{
+    position: absolute;
+    top: 30%;
+    left: 15%;
 }
 
 /* Visualização Mobile */
