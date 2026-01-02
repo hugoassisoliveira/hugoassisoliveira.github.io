@@ -266,8 +266,9 @@ p.hab{
 
     #bio-container{
         min-height: auto;
-        border-right: none;
+        margin: 10px auto;
         border-bottom: 5px solid var(--bio-border-color);
+        padding-left: 10px;
     }
 
     #bio-container h2{
@@ -275,7 +276,7 @@ p.hab{
     }
 
     #bio-container p{
-        max-width: 70%;
+        max-width: 80%;
     }
 
     #email-container{
@@ -287,8 +288,13 @@ p.hab{
 
     #about-container{
         text-align: left;
-        padding: 30px;
+        padding: 10px;
     }
+    
+    #about-container h1{
+        font-size: medium;
+    }
+
 
     #about-container .description{
         margin: 10px auto;
