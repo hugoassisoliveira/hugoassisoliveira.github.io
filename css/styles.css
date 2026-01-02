@@ -275,17 +275,19 @@ p.hab{
     }
 
     #bio-container p{
-        max-width: 60%;
-        margin: 10px auto;
-    }
-
-    #about-container{
-        text-align: center;
-        padding: 30px;
+        max-width: 70%;
     }
 
     #email-container{
+        display: flex;
         justify-content: center;
+        position: absolute;
+        left: 15px;
+    }
+
+    #about-container{
+        text-align: left;
+        padding: 30px;
     }
 
     #about-container .description{
@@ -305,7 +307,7 @@ p.hab{
     .skills-box{
         flex: 1 1 100%;
         max-width: 100%;
-        margin-bottom: 40px;
+        margin-bottom: 20px;
         text-align: left;
     }
 
