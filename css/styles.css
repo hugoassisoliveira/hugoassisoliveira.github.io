@@ -241,6 +241,12 @@ p.hab{
     left: 15%;
 }
 
+.habilidade img{
+    width: 48px;
+    height: auto;
+    display: block;
+}
+
 .imgicone {
     font-size: 20px;
     max-width: 40px;
@@ -278,6 +284,10 @@ p.hab{
         padding: 30px;
     }
 
+    #email-container{
+        justify-content: center;
+    }
+
     #about-container .description{
         margin: 10px auto;
         max-width: 100%;
@@ -286,6 +296,10 @@ p.hab{
 
     #btn-projects{
         margin: 20px auto;
+    }
+
+    .hab{
+        margin-left: 15px;
     }
 
     .skills-box{
